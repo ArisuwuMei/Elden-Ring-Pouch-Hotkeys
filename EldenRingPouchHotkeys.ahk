@@ -1,5 +1,7 @@
 #Requires AutoHotkey v2.0
 
+EventActionKeyBinding := "E"
+
 SendMode "Input"
 
 PressKeyWhileHolding(key, keyToHold) {
@@ -11,7 +13,7 @@ PressKeyWhileHolding(key, keyToHold) {
       Send "{" keyToHold " up}"
 }
 
-1::PressKeyWhileHolding("Up", "E")
-2::PressKeyWhileHolding("Right", "E")
-3::PressKeyWhileHolding("Left", "E")
-4::PressKeyWhileHolding("Down", "E")
+1::PressKeyWhileHolding("Up", EventActionKeyBinding)
+2::PressKeyWhileHolding("Right", EventActionKeyBinding)
+3::PressKeyWhileHolding("Left", EventActionKeyBinding)
+4::PressKeyWhileHolding("Down", EventActionKeyBinding)
