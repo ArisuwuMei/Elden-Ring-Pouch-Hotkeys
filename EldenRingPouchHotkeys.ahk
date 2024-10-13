@@ -13,5 +13,5 @@ PressKeyWhileHolding(key, keyToHold) {
 
 1::PressKeyWhileHolding("Up", "E")
 2::PressKeyWhileHolding("Right", "E")
-3::PressKeyWhileHolding("Down", "E")
-4::PressKeyWhileHolding("Left", "E")
+3::PressKeyWhileHolding("Left", "E")
+4::PressKeyWhileHolding("Down", "E")
